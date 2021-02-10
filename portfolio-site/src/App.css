@@ -3,18 +3,22 @@
 }
 
 .App-header {
-  background-color: #2B2D42;
+  background-image: url("./louis-reed-unsplash.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: right;
+  background-color:#202231;
+  background-blend-mode:screen;
   min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 html{
-  background-color: #8D99AE;
+  background-color: #202231;
 }
 
 .subtitle{
@@ -25,7 +29,7 @@ html{
 }
 
 .title{
-  font-size: 10rem;
+  font-size: 8rem;
   font-family: 'UnifrakturCook', cursive;
   color: #EF233C;
   margin: 0;
@@ -49,7 +53,7 @@ html{
 }
 
 .projects{
-  padding:40;
+  padding:40px;
   color: #2B2D42;
-  background-color: #D90429;
+  background-color: #B40421;
 }
