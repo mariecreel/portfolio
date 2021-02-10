@@ -36,55 +36,82 @@ html{
   margin: 0;
 }
 
-.content{
-  margin: 0 auto;
-  display:flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content:center;
-  width: 80%;
-
-}
-
-.card{
-  width:30%;
-  border-radius: 10px;
-  background-color: #EDF2F4;
-  color: #EF233C;
-  padding:10px;
-  margin: 20px;
-}
-
 .projects{
-  padding:40px;
-  color: #2B2D42;
+  padding:10px;
+  color: #EDF2F4;
   background-color: #B40421;
 }
 
 .projects-title{
   font-size: 4rem;
-  margin:0;
   color: #EDF2F4;
   font-family: 'UnifrakturMaguntia', cursive;
+  padding:20px;
 }
 
 .overview{
-  padding:40px;
+  padding: 20px;
   color: #202231;
   background-color: #8d99ae;
-  text-align: center;
 }
 
 .overview-title{
   font-size: 4rem;
-  margin:0;
   color: #202231;
-  width: 100%;
   font-family: 'UnifrakturMaguntia', cursive;
 }
 
 .overview-content{
-  width: 80%;
+  max-width: 80vw;
   margin: 0 auto;
-  padding:10px;
+}
+
+.carousel-item{
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.carousel{
+  width: 80vw;
+  margin: 0 auto;
+  padding-bottom:50px;
+}
+
+.carousel-image{
+  width:100%;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  color: #EDF2F4;
+  background-color: #202231;
+  font-size: 20pt;
+}
+
+.overlay-text{
+  margin: 10%;
+}
+
+.carousel-item:hover .overlay{
+  opacity: 1;
+}
+
+.contact{
+  padding:20px;
+  color: #EDF2F4;
+  background-color: #202231;
+}
+
+.contact-title{
+  font-size: 4rem;
+  color: #EDF2F4;
+  font-family: 'UnifrakturMaguntia', cursive;
 }
