@@ -35,7 +35,7 @@ export default function ProjectCards(){
           <img className="carousel-image"src={hatsunemicu} alt="hatsunem.icu"/>
           <div className="overlay">
             <p className="overlay-text">
-              <a href="" target="_blank"><h2>hatsunem.icu</h2></a><br/> Loads a random youtube video from a curated playlist of
+              <a href="http://hatsunem.icu" target="_blank"><h2>hatsunem.icu</h2></a><br/> Loads a random youtube video from a curated playlist of
               songs featuring Vocaloid Hatsune Miku. <br/><br/>
               Software used: Python, Flask, Youtube API, HTML/CSS, gunicorn, Heroku
             </p>
