@@ -9,7 +9,7 @@ function App() {
       <h2 className="subtitle">Front-end developer, 42.3464° N, 71.1627° W.</h2>
       </header>
       <div className="projects">
-        <h1 className="subtitle">Projects</h1>
+        <h1 className="projects-title">Projects</h1>
         <ProjectCards/>
       </div>
     </div>
