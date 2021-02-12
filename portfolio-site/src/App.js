@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header container-fluid">
       <h1 className="title">M. Creel</h1>
-      <h2 className="subtitle">Front-end developer, 42.3464° N, 71.1627° W.</h2>
+      <h2 className="subtitle">Front-end developer & Writer | Boston, MA</h2>
       </header>
       <div className="overview container-fluid">
         <h1 className="overview-title">Overview</h1>
