@@ -1,5 +1,5 @@
 import React from 'react';
-import gamez4grrrlz from './gamez4grrlz.png';
+import mbtaarrivals from './mbtaarrivals.png';
 import hatsunemicu from './hatsunemicu.png';
 import moviesearch from './moviesearch.png';
 
@@ -15,18 +15,18 @@ export default function ProjectCards(){
             <p className="overlay-text">
               <a href="https://cursed.co.in/movie-db-react" target="_blank"><h2>Movie Search</h2></a><br/>
               Simple movie search engine powers by The Movie Database's API (TMDb API).<br/><br/>
-              Software used: Javascript, React, HTML/CSS
+              Software used: JavaScript, React, HTML/CSS
             </p>
           </div>
         </div>
 
         <div className="carousel-item">
-          <img className="carousel-image"src={gamez4grrrlz} alt="gamez4grrrlz"/>
+          <img className="carousel-image"src={mbtaarrivals} alt="mbtaarrivals"/>
           <div className="overlay">
             <p className="overlay-text">
-              <a href="https://cursed.co.in/gamez4grrrlz" target="_blank"><h2>gamez4grrrlz</h2></a><br/>
-              Collection of three interactive hypertext poems inspired by classic flash games. <br/><br/>
-              Software used: Javascript, HTML/CSS, JQueryUI
+              <a href="https://cursed.co.in/gamez4grrrlz" target="_blank"><h2>MBTA Arrival Predictions (In Development)</h2></a><br/>
+              Predicts when the next train arrives at a selected stop on the MBTA subway system. <br/><br/>
+              Software used: JavaScript, TypeScript, Svelte, Rollup, Vercel
             </p>
           </div>
         </div>
