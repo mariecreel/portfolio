@@ -26,7 +26,7 @@ export default function ProjectCards(){
             <p className="overlay-text">
               <a href="https://cursed.co.in/gamez4grrrlz" target="_blank"><h2>MBTA Arrival Predictions (In Development)</h2></a><br/>
               Predicts when the next train arrives at a selected stop on the MBTA subway system. <br/><br/>
-              Software used: JavaScript, TypeScript, Svelte, Rollup, Vercel
+              Software used: JavaScript, TypeScript, Svelte, HTML/CSS, Rollup, Vercel
             </p>
           </div>
         </div>
