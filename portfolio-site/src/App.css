@@ -62,7 +62,7 @@ html{
 }
 
 .overview-content{
-  max-width: 80vw;
+  max-width: 60vw;
   margin: 0 auto;
 }
 
@@ -114,4 +114,13 @@ html{
   font-size: 4rem;
   color: #EDF2F4;
   font-family: 'UnifrakturMaguntia', cursive;
+}
+
+@media (max-width: 600px) {
+  .overview-content {
+    max-width: 100vw;
+  }
+  .overlay{
+    font-size: 80%
+  }
 }
