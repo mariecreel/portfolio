@@ -8,7 +8,7 @@
       "software": "JavaScript, TypeScript, Svelte, HTML/CSS, Rollup, Vercel, MBTA API v3",
       "image": "mbtaarrivals",
       "key": "123",
-      "active": "1"
+      "active": "active"
     },
     {
       "title": "hatsunem.icu",
@@ -18,7 +18,7 @@
       "software": "Python, Flask, HTML/CSS, gunicorn, Heroku, Youtube API",
       "image": "hatsunemicu",
       "key": "456",
-      "active": "0"
+      "active": ""
     },
     {
       "title": "Simple Movie Search",
@@ -28,7 +28,7 @@
       "software": "JavaScript, React, HTML/CSS, TMDb API",
       "image": "moviesearch",
       "key": "789",
-      "active": "0"
+      "active": ""
     }
   ]
 }
