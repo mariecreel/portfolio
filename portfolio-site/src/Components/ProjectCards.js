@@ -11,6 +11,13 @@ export default function ProjectCards(){
       <h1 className="projects-title">Projects</h1>
         <div id="projects" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner">
+          {/*
+            because object contact contains a list of objects, have to use
+            filter to select objects that match a certain filter (here, we
+            test whether a method attribute exists in the object) and then
+            we can spread that object and use it as props. map doesn't work
+            when we're using objects this way, so we have to use filter. 
+          */}
           {projectsList.filter(project => project.title).map(project => (
 
               <CarouselItem {...project}/>
