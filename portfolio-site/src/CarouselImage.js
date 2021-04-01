@@ -13,6 +13,7 @@ const images = {
 export default function CarouselImage(props){
   console.log(images[props.src])
   return(
-    <img className="carousel-image" src={images[props.src]} alt={props.alt}/>
+    <img className="carousel-image" src={images[props.src]} alt={props.alt}>
+    </img>
   )
 }

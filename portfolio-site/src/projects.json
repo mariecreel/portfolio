@@ -7,7 +7,8 @@
       "repo": "https://github.com/ncreel/mbta-app",
       "software": "JavaScript, TypeScript, Svelte, HTML/CSS, Rollup, Vercel, MBTA API v3",
       "image": "mbtaarrivals",
-      "key": "123"
+      "key": "123",
+      "active": "1"
     },
     {
       "title": "hatsunem.icu",
@@ -16,7 +17,8 @@
       "repo": "https://github.com/ncreel/mbta-app",
       "software": "Python, Flask, HTML/CSS, gunicorn, Heroku, Youtube API",
       "image": "hatsunemicu",
-      "key": "456"
+      "key": "456",
+      "active": "0"
     },
     {
       "title": "Simple Movie Search",
@@ -25,7 +27,8 @@
       "repo": "https://github.com/ncreel/movie-db-react",
       "software": "JavaScript, React, HTML/CSS, TMDb API",
       "image": "moviesearch",
-      "key": "789"
+      "key": "789",
+      "active": "0"
     }
   ]
 }
