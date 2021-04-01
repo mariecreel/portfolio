@@ -12,8 +12,8 @@ export default function CarouselOverlay(props){
         </a>
         <br/>
         {props.headline}
-        <br/>
-        {props.software}
+        <br/><br/>
+        Software used: {props.software}
       </div>
     </div>
   )

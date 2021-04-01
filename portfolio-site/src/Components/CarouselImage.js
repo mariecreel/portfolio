@@ -1,8 +1,8 @@
 import React from 'react';
 
-import mbtaarrivals from './mbtaarrivals.png';
-import hatsunemicu from './hatsunemicu.png';
-import moviesearch from './moviesearch.png';
+import mbtaarrivals from '../img/mbtaarrivals.png';
+import hatsunemicu from '../img/hatsunemicu.png';
+import moviesearch from '../img/moviesearch.png';
 
 const images = {
   "mbtaarrivals": mbtaarrivals,

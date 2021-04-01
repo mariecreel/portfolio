@@ -1,5 +1,6 @@
 import './App.css';
-import ProjectCards from './ProjectCards.js'
+import ProjectCards from './Components/ProjectCards.js';
+import Contact from './Components/Contact.js';
 
 function App() {
   return (
@@ -22,20 +23,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="projects container-fluid">
-        <h1 className="projects-title">Projects</h1>
         <ProjectCards/>
-      </div>
-      <div className="contact container-fluid">
-        <div className="contact-title">Contact</div>
-        <div className="contact-content">
-          <div className="row justify-content-center">
-              <div className="col-2"><a href="https://github.com/ncreel" target="_blank">Github</a></div>
-              <div className="col-2"><a href="https://linkedin.com/in/m-creel" target="_blank">Linkedin</a></div>
-              <div className="col-2"><a href="mailto:marie.n.creel@gmail.com">marie.n.creel@gmail.com</a></div>
-          </div>
-        </div>
-      </div>
+        <Contact/>
     </div>
   );
 }
