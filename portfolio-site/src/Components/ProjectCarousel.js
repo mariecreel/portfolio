@@ -5,7 +5,7 @@ const projectsList = projects.projects;
 
 console.log(projectsList)
 
-export default function ProjectCards(){
+export default function ProjectCarousel(){
   return (
     <div className="projects container-fluid">
       <h1 className="projects-title">Projects</h1>
@@ -16,7 +16,7 @@ export default function ProjectCards(){
             filter to select objects that match a certain filter (here, we
             test whether a method attribute exists in the object) and then
             we can spread that object and use it as props. map doesn't work
-            when we're using objects this way, so we have to use filter. 
+            when we're using objects this way, so we have to use filter.
           */}
           {projectsList.filter(project => project.title).map(project => (
 
