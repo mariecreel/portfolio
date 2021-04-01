@@ -5,7 +5,7 @@ import CarouselOverlay from './CarouselOverlay.js';
 export default function CarouselItem(props){
   console.log(props)
   return(
-    <div className="carousel-item" key="{props.image}">
+    <div className="carousel-item" key="{props.key}">
       <CarouselImage src={props.image}
                     alt={props.title}
       />
