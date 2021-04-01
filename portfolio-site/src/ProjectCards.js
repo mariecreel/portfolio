@@ -11,13 +11,7 @@ export default function ProjectCards(){
       <div className="carousel-inner">
       {projectsList.filter(project => project.title).map(project => (
 
-          <CarouselItem title={project.title}
-                        headline={project.headline}
-                        href={project.href}
-                        repo={project.repo}
-                        software={project.software}
-                        image={project.image}
-          />
+          <CarouselItem {...project}/>
       ))}
       </div>
       <a className="carousel-control-prev" href="#projects" role="button" data-slide="prev">
