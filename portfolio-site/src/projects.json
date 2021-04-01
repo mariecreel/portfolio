@@ -1,0 +1,28 @@
+{
+  "projects":[
+    {
+      "title": "MBTA Arrival Predictions",
+      "headline": "Predicts when the next train arrives at a selected stop on the MBTA subway system through calls to the MBTA API",
+      "href": "https://mbta-app.vercel.app/",
+      "repo": "https://github.com/ncreel/mbta-app",
+      "software": "JavaScript, TypeScript, Svelte, HTML/CSS, Rollup, Vercel, MBTA API v3",
+      "image": "mbtaarrivals"
+    },
+    {
+      "title": "hatsunem.icu",
+      "headline": "Loads a random youtube video from a curated playlist of songs featuring Vocaloid Hatsune Miku",
+      "href": "http://hatsunem.icu",
+      "repo": "https://github.com/ncreel/mbta-app",
+      "software": "Python, Flask, HTML/CSS, gunicorn, Heroku, Youtube API",
+      "image": "hatsunemicu"
+    },
+    {
+      "title": "Simple Movie Search",
+      "headline": "Search for movie titles and browse a list of results",
+      "href": "https://cursed.co.in/movie-db-react",
+      "repo": "https://github.com/ncreel/movie-db-react",
+      "software": "JavaScript, React, HTML/CSS, TMDb API",
+      "image": "./moviesearch.png"
+    }
+  ]
+}
