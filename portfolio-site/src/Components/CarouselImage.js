@@ -3,11 +3,13 @@ import React from 'react';
 import mbtaarrivals from '../img/mbtaarrivals.png';
 import hatsunemicu from '../img/hatsunemicu.png';
 import moviesearch from '../img/moviesearch.png';
+import christianbooks from '../img/christianbooks.png';
 
 const images = {
   "mbtaarrivals": mbtaarrivals,
   "hatsunemicu": hatsunemicu,
-  "moviesearch": moviesearch
+  "moviesearch": moviesearch,
+  "christianbooks": christianbooks
 }
 
 export default function CarouselImage(props){

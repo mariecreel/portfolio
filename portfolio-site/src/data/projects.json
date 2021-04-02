@@ -1,14 +1,24 @@
 {
   "projects":[
     {
+      "title": "Christianbook Product Search",
+      "headline": "Searches for a product in a database and provides information to the user, like the product rating and the link to purchase the product on Christianbook.com. Completed as part of the interview process at Christianbook",
+      "href": "https://christianbook-code-challenge.herokuapp.com/",
+      "repo": "https://github.com/ncreel/christianbook-coding-challenge",
+      "software": "JavaScript, Node.js, Express, HTML/CSS, Heroku",
+      "image": "christianbooks",
+      "key": "123",
+      "active": "active"
+    },
+    {
       "title": "MBTA Arrival Predictions",
       "headline": "Predicts when the next train arrives at a selected stop on the MBTA subway system through calls to the MBTA API",
       "href": "https://mbta-app.vercel.app/",
       "repo": "https://github.com/ncreel/mbta-app",
       "software": "JavaScript, TypeScript, Svelte, HTML/CSS, Rollup, Vercel, MBTA API v3",
       "image": "mbtaarrivals",
-      "key": "123",
-      "active": "active"
+      "key": "234",
+      "active": ""
     },
     {
       "title": "hatsunem.icu",
@@ -17,7 +27,7 @@
       "repo": "https://github.com/ncreel/mbta-app",
       "software": "Python, Flask, HTML/CSS, gunicorn, Heroku, Youtube API",
       "image": "hatsunemicu",
-      "key": "456",
+      "key": "345",
       "active": ""
     },
     {
@@ -27,7 +37,7 @@
       "repo": "https://github.com/ncreel/movie-db-react",
       "software": "JavaScript, React, HTML/CSS, TMDb API",
       "image": "moviesearch",
-      "key": "789",
+      "key": "456",
       "active": ""
     }
   ]
