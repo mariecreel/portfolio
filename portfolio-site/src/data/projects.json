@@ -4,7 +4,7 @@
       "title": "Christianbook Product Search",
       "headline": "Searches for a product in a database and provides information to the user, like the product rating and the link to purchase the product on Christianbook.com. Completed as part of the interview process at Christianbook",
       "href": "https://christianbook-code-challenge.herokuapp.com/",
-      "repo": "https://github.com/ncreel/christianbook-coding-challenge",
+      "repo": "https://github.com/ncreel/christianbook-code-challenge",
       "software": "JavaScript, Node.js, Express, HTML/CSS, Heroku",
       "image": "christianbooks",
       "key": "123",
